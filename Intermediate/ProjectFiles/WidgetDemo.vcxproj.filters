@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\WidgetDemo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{92152E08-1F0C-4158-9A17-50F99FDA0675}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WidgetDemo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WidgetDemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C33AF9FD-3209-4BAD-A8A3-DCB2E1860A26}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\WidgetDemo">
+      <UniqueIdentifier>{43EC116D-A90F-4877-84E4-1BA8A7BC456E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WidgetDemo\MyBaseWidgetBlueprint.cpp">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WidgetDemo\MyBaseWidgetBlueprint.h">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WidgetDemo\MyClass.cpp">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WidgetDemo\MyClass.h">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\WidgetDemo\WidgetDemo.Build.cs">
+      <Filter>Source\WidgetDemo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WidgetDemo\WidgetDemo.cpp">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WidgetDemo\WidgetDemo.h">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WidgetDemo\WidgetDemoGameModeBase.cpp">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WidgetDemo\WidgetDemoGameModeBase.h">
+      <Filter>Source\WidgetDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
